@@ -5,7 +5,17 @@
 	import MemoryIcon from '$lib/assets/icons/icon-memory.svg?component';
 	import VerbalIcon from '$lib/assets/icons/icon-verbal.svg?component';
 	import VisualIcon from '$lib/assets/icons/icon-Visual.svg?component';
+	import preview from '$lib/assets/images/desktop-preview.jpg';
 </script>
+
+<svelte:head>
+	<title>Result Summary</title>
+	<meta name="description" content="A project from Frontend Mentor" />
+
+	<meta property="og:title" content="Result Summary" />
+	<meta property="og:description" content="A project from Frontend Mentor" />
+	<meta property="og:image" content={preview} />
+</svelte:head>
 
 <main class="md:h-screen md:grid md:place-items-center">
 	<div
