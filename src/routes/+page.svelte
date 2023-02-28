@@ -4,7 +4,7 @@
 	import ReactionIcon from '$lib/assets/icons/icon-reaction.svg?component';
 	import MemoryIcon from '$lib/assets/icons/icon-memory.svg?component';
 	import VerbalIcon from '$lib/assets/icons/icon-verbal.svg?component';
-	import VisualIcon from '$lib/assets/icons/icon-Visual.svg?component';
+	import VisualIcon from '$lib/assets/icons/icon-visual.svg?component';
 	import preview from '$lib/assets/images/desktop-preview.jpg';
 </script>
 
