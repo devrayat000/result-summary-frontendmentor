@@ -7,7 +7,7 @@
 	export { clz as class };
 </script>
 
-<div class={clsx(clz, 'flex p-3 rounded-md gap-2.5 text-sm')}>
+<div class={clsx(clz, 'flex px-3 py-3 md:py-2.5 rounded-md gap-2.5 text-sm')}>
 	<slot name="icon" />
 	<h6 class="text-current flex-1 font-bold">{title}</h6>
 	<p class="text-black">{score} / <span class="text-neutral-dark-gray-blue/70">100</span></p>
